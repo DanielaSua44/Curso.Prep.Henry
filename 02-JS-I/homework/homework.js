@@ -150,6 +150,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
     var valor = Math.round(num);
+    return valor;
 }
 
 function redondearHaciaArriba(num) {
@@ -174,7 +175,7 @@ function combinarNombres(nombre, apellido) {
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
-    return 'Hola'+ nombre + '!';
+    return 'Hola '+ nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
