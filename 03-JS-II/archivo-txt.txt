@@ -1,0 +1,40 @@
+Esplicacion del for,&&.||,!
+FOR (bucle)
+es una estructura repetitiva,que tiene tres argumentos:variable de inicializacion
+condición y variable de incremento o decremento.
+
+       sintaxis:
+  for( var i=0                ;i < 10        ;i++){
+  //declaramos una variable   condicion      incremento la variable
+
+       <Instrucciones>
+  }
+
+  1-paso se inicializa la variable , se ejecuta por única .
+  2-se evalua la condición,si es verdadera se ejecuta el bloque sino continua con
+    con el programa.
+  3-ejecuta las instrucciones.
+  4.paso es ejecutar el tercer argumento( i++)incrementa o decrementa.
+  5-paso se repiten sucesivamente del 2 al 4 paso.
+
+  Este tipo de estructura se utiliza cuando sabemos de antemano la cantidad
+  de veces que deseamos que se repita un bloque.
+
+
+  OPERADORES LOGUICOS´
+
+  && o AND en ingles.este tipo de operador se utiliza para evaluar dos condiciones
+  ej: (10 < 45 && 10 >5){
+      instrucciones
+  }
+  evaluara ambas condiciones si son las dos verdadera entonces es verdadera,
+  sino si una de las dos condiciones es falsa entonces es falsa.
+
+  || o or este operador evalua las dos condicione,si una de las dos es verdadera 
+  entonces es verdadera, asi como también si ambas exprecciones son verdaderas
+  sera verdadera.Sera falsa cuando ambas condiciones son falsas.
+
+  ! NOT este operador devolverá el valor booleano opuesto a lo que se le pasa.
+
+   !(true)=false
+   !( 5 < 22)=false
