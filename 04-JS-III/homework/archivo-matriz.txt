@@ -1,0 +1,23 @@
+MATRIZ
+
+Array o vector:
+Es una estructura de datos que nos permite almacenar distintos tipos de datos.
+Seria algo asi como un contenedor de tipos de datos,
+una matriz puede tener multiplo tipos de datos Ej: array[45,'Marcos',3.14,etc]
+cuando declaramos  un vector con un único nombre se lo define y por medio de un
+subindice hacemos referencia a cada uno de los elementos del mismo.
+Las matricez cuentan con distintos metodos.
+.length  nos da el tamaño de la matriz.
+.pop     elimina u elemento al final de la matriz.
+.push    agrega un elemento alfinal de la matriz.
+.unshift coloca un elemento en la primera posicion de la matriz.
+.shift   elimina el primer elemento de la matriz.
+.join    concatena todos los elementos del array en un único string.
+.splice  
+.splice
+.concat
+.toString
+.delete
+.reverse
+.sort
+.
