@@ -1,0 +1,40 @@
+OBJETO
+
+Un objeto es una colección de datos relacionado que gueneralmente consta de algunas variables
+o funciones que se denominan propiedades y metodos,es decir un objeto tiene mucha informacion
+sobre una sola cosa.
+los objetos usan un concepto llamado pares clave,valor
+La clave(key) es el identificador iy el valor(value)es el valor que queremos guardar en esa clave.
+Las claves son  unicas en un objeto ,tan solo debe haber una clave con ese nombre,aunque varias claves pueden tener el mismo valor.
+Objetos: Son todas las cosas con identidad propia. Se relacionan entre si. Poseen características (atributos) y tienen responsabilidades (funciones, métodos) que deben cumplir.
+Son ejemplares (instancias) de una clase y conocen a la clase a la cual pertenecen.
+
+Propiedad o atributo: Son las características, cualidades distintivas de cada objeto. Deben ser mínimos para poder realizar todas las operaciones que requiere la aplicación.
+
+Mëtodos o responsabilidades:
+Son las responsabilidades que debe cumplir el objeto.
+El objetivo de un método es ejecutar las actividades que tiene encomendado el objeto.
+
+Es un algoritmo (conjunto de operaciones) que se ejecuta en respuesta a un mensaje; respuestas a mensajes para satisfacer peticiones.
+Un método consiste en el nombre de la operación y sus argumentos. El nombre del método identifica una operación que se ejecuta.
+Un método está determinado por la clase del objeto receptor, todos los objetos de una clase usan el mismo método en respuesta a mensajes similares.
+
+La interpretación de un mensaje (selección del método ejecutado) depende del receptor y puede variar con distintos receptores, es decir, puede variar de una clase a otra.
+
+
+Notacion de puntos vs notacion de corchetes
+con la notacion de puntos(dot notation).El nombre del objeto,al cual debes ingresar primero para acceder a cualquier elemento encapsulado dentro del objeto
+a continuacion escribe un punto y luego el elemento que deseas acceder:puede ser un nombre de una propiedad,un elemento de una propiedad de un array o la llamada a un metodo del objeto.
+Notacion de corchetes
+es como llamar a un elemento de una matriz ,aunque con corchetes,gueneralmente se usan con las variables.
+Agregar una propiedad a un objeto no es posible con la notación de punto,que solo puede aceptar un nombre
+de miembro literal ,no un valor variable que apunte a un nombre.
+
+
+BUCLE for...in
+itera sobre todas las propiedades enumerables de un objetoque estan codificadas por cadenas 
+ignorando las codificadas por simbolos,incluidas las propiedades enumerables heredadas.
+comienza igual que un for,entre paréntesis declaremos una variable ,la palabra calave in
+y el nombre del objeto.Este recorrera cada clave del objeto y finalizara cuando se haya iterados todas 
+las claves.
+
