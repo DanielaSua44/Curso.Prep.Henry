@@ -1,0 +1,19 @@
+PROTOTYPE:
+La creacion de funciones es costosa(refiriendono a la capacidad de memoria)y cad vez que recreamos un 
+objetos con metodos ,estamos recreando esos metodos en la memoria.
+las clases tienen una forma unica de crear esos metodos una vez y dar acceso a los objetos de la misma clase a esos metodos.
+Esto se llama prototype.
+Todos los objetos tienen una referencia a otro llamadp prototipo.
+Objet.prototype representa al propio objetos
+Todos los objetos en javascript provienen de objet;todos los objetos heredan metodos y propiedades de objet.prototype
+Cuando intentamos acceder a una propiedad de un objeto,la propiedad no solo se busca en el propio objeto sino también en el
+prototipo del objeto,en el prototipo del prototipo y asi sucesivamente hasta que encuentre una propiedad que coincida con el 
+nombre o alcance el final de la cadena de prototipo.
+
+CONSTRUCTORS(de clases):
+Clases: es una plantilla para la creacion de un objato,según un modelo predefinido
+New:define una instancia de un objeto de la clase.
+El método constructor es un método especial para crear e inicializar un objeto creado con un class. Solo puede haber un 
+ especial con el nombre "constructor" en una clase. Se SyntaxErrorlanzará A si la clase contiene más de una aparición de un constructormétodo.
+ Un constructor puede usar la superpalabra clave para llamar al constructor de la superclase.
+ 
